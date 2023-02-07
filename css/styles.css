@@ -95,16 +95,16 @@ p {
 }
 
 .hero div:nth-child(1) {
-    background-image: url('../img/front1.jpg');
+    background-image: url('../img/front11.jpg');
 }
 
 .hero div:nth-child(2) {
-    background-image: url('../img/front2.jpg');
+    background-image: url('../img/front12.jpg');
     animation-delay: 6s;
 }
 
 .hero div:nth-child(3) {
-    background-image: url('../img/front3.jpg');
+    background-image: url('../img/front13.jpg');
     animation-delay: 12s;
 }
 
@@ -160,7 +160,7 @@ header {
     left: 0;
     z-index: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 0 1em;
     transition: 600ms all ease-in-out;
@@ -207,7 +207,6 @@ header.transparente nav a:hover {
     left: 1rem;
     cursor: pointer;
     z-index: 10;
-    display: none;
 }
 
 #burger .barra {
@@ -251,6 +250,7 @@ header.transparente nav a:hover {
 /* Menú lateral */
 
 .menu {
+    z-index: 2;
     width: 360px;
     height: 100vh;
     background-color: #424242;
