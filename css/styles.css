@@ -95,16 +95,16 @@ p {
 }
 
 .hero div:nth-child(1) {
-    background-image: url('../img/front1.jpg');
+    background-image: url('../img/front1a.jpg');
 }
 
 .hero div:nth-child(2) {
-    background-image: url('../img/front2.jpg');
+    background-image: url('../img/front2a.jpg');
     animation-delay: 6s;
 }
 
 .hero div:nth-child(3) {
-    background-image: url('../img/front3.jpg');
+    background-image: url('../img/front3a.jpg');
     animation-delay: 12s;
 }
 
