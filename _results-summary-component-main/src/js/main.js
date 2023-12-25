@@ -22,5 +22,4 @@ $(document).ready(function() {
             }, 800)
         }
     })
-    // Iframes
 })

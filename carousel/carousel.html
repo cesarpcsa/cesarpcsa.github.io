@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <p>Helo World</p>
+
+    <button onclick="openCarousel()">Open Carousel</button>
+
+    <div class="overlay"></div>
+    <div class="carousel">
+        <div class="slide">
+            <img src="/img/thumb2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/img/thumb3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/img/thumb4.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="/img/thumb5.jpg" alt="">
+        </div>
+        <div class="close-carousel" onclick="closeCarousel()">
+            <img src="../img/x.svg" alt="">
+        </div>
+        <div class="right-arrow" onclick="nextSlide()">
+            <img src="../img/right.svg" alt="">
+        </div>
+        <div class="left-arrow" onclick="prevSlide()">
+            <img src="../img/left.svg" alt="">
+        </div>
+    </div>
+      
+<script src="carousel.js"></script>
+</body>
+</html>

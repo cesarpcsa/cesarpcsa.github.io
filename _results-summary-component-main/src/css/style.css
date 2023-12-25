@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: darkmagenta;
+    color: white;}
+    
+body {
+    color: rgba(204, 203, 203, 0.856);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 2rem;
+    background-color: hsl(241, 81%, 54%);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+header a{
+    color: hsl(0, 0%, 100%);
+}
+
+
+.cesar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(241, 81%, 54%);
+    width: 100%;
+    height: 4rem;
+}
+
+/* Main */
+
+.main {
+    left: 50%;
+    width: 98%;
+    max-width: 800px;
+    padding: 1%;
+    display: flex;
+    aspect-ratio: 5 / 4;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.left {
+    padding: 1rem 2rem;
+    width: 50%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    overflow-wrap: normal;
+}
+
+.lefth {
+    padding-bottom: 1rem;
+}
+
+.circle {
+    margin: 0;
+    width: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: visible;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    overflow: visible;
+}
+
+.circleh {
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    font-weight: 900;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+}
+.circlep {
+    display: block;
+    padding-bottom: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.great {
+    color: hsl(0, 0%, 100%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.left p {
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.right {
+    padding: 1rem;
+    width: 50%;
+    background-color: azure;
+    text-align: left;
+    color: hsl(228, 45%, 44%);
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right button {
+    margin: 0;
+    padding: 1rem;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border: none;
+    border-radius: 2rem 2rem 2rem 2rem;
+    color: aliceblue;
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    font-size: 1rem;
+}
+
+.right table {
+    width: 100%;
+    height: 70%;
+}
+
+.right td:nth-child(1) {
+    text-align: center;
+}
+.right td:nth-child(2) {
+    padding-left: 1ch;
+}
+.right td:nth-child(3) {
+    text-align: right;
+    padding-right: 1ch;
+}
+
+.right tr:nth-child(2) td:nth-child(2) {
+    color: hsl(0, 100%, 67%);
+}
+
+.right tr:nth-child(3) td:nth-child(2) {
+    color: hsl(39, 100%, 56%);
+}
+.right tr:nth-child(4) td:nth-child(2) {
+    color: hsl(166, 100%, 37%);
+}
+.right tr:nth-child(5) td:nth-child(2) {
+    color: hsl(234, 85%, 45%);
+}
+/* Filas */
+.right tr:nth-child(2) {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.right tr:nth-child(3) {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.right tr:nth-child(4) {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.right tr:nth-child(5) {
+    background-color: hsla(224, 30%, 27%, 0.1);
+}
+
+.right tr td:first-child {
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+.right tr td:last-child {
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.right th {
+    max-width: 10px;
+    font-size: 2rem;
+}
+
+.attribution {
+    position: relative;
+    width: 70%;
+    margin-bottom: 2rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+    .main {
+        width: 100%;
+        top: -30px;
+        padding: 0;
+        flex-direction: column;
+        aspect-ratio: unset;
+    }
+    .left{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        aspect-ratio: unset;
+    }
+    .lefth {
+        padding-top: 60px;
+    }
+    .right {
+        width: 80%;
+        margin: 0;
+        padding: 0% 10%;
+        aspect-ratio: 2 / 3;
+    }
+    .circle{
+        width: 40%;
+        aspect-ratio: 1;
+        overflow: visible;    
+    }
+    .left p {
+        padding: 0rem 2rem 2rem 2rem;
+        text-align: center;}
+}
+
